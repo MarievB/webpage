@@ -1,0 +1,98 @@
+body {
+    height: 100%;
+    background-image: -webkit-linear-gradient(180deg, rgb(104, 1, 107) , rgb(148, 84, 0), rgb(0, 82, 149));
+    font-family: courier;
+    color: rgb(239, 222, 245);
+}
+
+.main-container {
+    padding: 100px;
+    text-align: center;
+  }
+
+/* navigation line style */ 
+nav {
+    background-image: -webkit-linear-gradient(180deg, rgb(104, 1, 107, 0.7) , rgb(148, 84, 0, 0.7), rgb(0, 82, 149, 0.7));
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 2% 2%;
+    text-shadow: 3px 3px 8px ;
+    font-size: 150%;
+}
+
+.nav-element {
+    color: #c482c5; 
+}
+
+.nav-element:visited {
+    color: #c482c5; 
+}
+
+.nav-element:hover {
+    color: rgb(225, 161, 238)
+}
+
+.nav-element:active {
+    color: rgb(255, 255, 255);
+}
+
+/* center title thing */ 
+.center-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-title {
+    font-size: 300%;
+}
+
+/* bottom of pages */
+.footer {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+} 
+
+/* nope button */
+.nope-button {
+    padding: 10px 10px;
+    font-size: 100%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #ff7c11;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .nope-button:hover {background-color: #a05213}
+  
+  .nope-button:active {
+    background-color: #a05213;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* text style */ 
+p  {
+    color: rgb(215, 154, 223);
+}
+
+/* imgs */
+
+.ice-img {
+    height: 500px;
+}
+
+.boob-img {
+    justify-content: center;
+    height: 350px;
+    border-radius: 25%;
+}

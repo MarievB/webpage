@@ -8,7 +8,7 @@ body {
 .main-container {
     padding: 100px;
     text-align: center;
-  }
+}
 
 /* navigation line style */ 
 nav {
@@ -55,8 +55,8 @@ nav {
 /* bottom of pages */
 .footer {
     position: fixed;
-    bottom: 2%;
-    right: 2%;
+    bottom: 5%;
+    right: 5%;
 } 
 
 /* nope button */
@@ -72,13 +72,15 @@ nav {
     box-shadow: 0 9px #999;
   }
   
-  .nope-button:hover {background-color: #a05213}
+.nope-button:hover {
+    background-color: #a05213
+}
   
-  .nope-button:active {
+.nope-button:active {
     background-color: #a05213;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
+}
 
 /* text style */ 
 p  {
@@ -95,4 +97,23 @@ p  {
     justify-content: center;
     height: 350px;
     border-radius: 25%;
+}
+
+.squid-container .squid-img {
+    height: 200px;
+}
+
+.squid-container .squid-cig-img {
+    display: none;
+    height: 200px;
+}
+
+.squid-container:hover .squid-cig-img {
+    display: inline;
+    height: 200px;
+}
+
+.squid-container:hover .squid-img {
+    display: none;
+    height: 200px;
 }
